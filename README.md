@@ -2,19 +2,36 @@
 
 This project is a smart locking system that uses **OTP (One-Time Password)** authentication via **SIM800A GSM module**, **4x4 Keypad**, **LCD Display**, and **Servo Motor**. It sends an OTP to a registered mobile number, and access is granted only if the correct OTP is entered through the keypad.
 
-## 📸 Circuit Diagram
+## 🛠️ Features
 
-![Circuit Diagram](https://github.com/obulsai/Smart-lock-with-OTP-athuntication/blob/main/circuit_image%20(1).png)
+- Generates a random 4-character OTP
+- Sends OTP via **SIM800A GSM Module**
+- Accepts OTP input via **4x4 Keypad**
+- Displays messages on **I2C LCD**
+- Controls lock with a **Servo Motor**
+- Password retry and reset options
 
-## ⚙️ Hardware Used
+---
 
-- Arduino Uno
-- SIM800A GSM Module
-- 4x4 Keypad
-- 16x2 I2C LCD Display
-- Servo Motor
-- Jumper wires
-- Power supply
+## 🧰 Components Used
+
+| Component             | Quantity |
+|-----------------------|----------|
+| Arduino Uno/Nano      | 1        |
+| SIM800A GSM Module    | 1        |
+| 4x4 Matrix Keypad     | 1        |
+| 16x2 I2C LCD Display  | 1        |
+| Servo Motor (SG90)    | 1        |
+| Jumper Wires          | As needed |
+| Power Supply/Adapter  | 1        |
+
+---
+
+## 🔌 Circuit Diagram
+
+![Circuit Diagram](https://github.com/obulsai/Smart-lock-with-OTP-authentication/blob/89fefe85b79876f69a6a1d01c82608bcba3d1959/circuit_image%20(7).png)
+
+---
 
 ## 🧠 Working
 
