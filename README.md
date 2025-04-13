@@ -182,6 +182,9 @@ void rotateServo() {
   delay(1000);
 }
 
+```
+---
+
 ## ✅ Output
 
 - On startup, a random 4-character OTP is generated and sent to the registered mobile number via the SIM800A GSM module.
@@ -189,3 +192,5 @@ void rotateServo() {
 - If the entered OTP is correct, the LCD shows “Correct Password!”, and the servo motor rotates to unlock.
 - If the OTP is incorrect, “Access Denied” is displayed and the user is prompted again.
 - The system allows retrying with a new OTP if restarted.
+
+
