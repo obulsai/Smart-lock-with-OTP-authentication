@@ -1,7 +1,3 @@
-# Smart-lock-with-OTP-authentication
-A smart lock system using Arduino that generates a 4-character OTP and sends it via SMS using the SIM800A GSM module. The user enters the OTP on a 4x4 keypad. If correct, a servo motor unlocks the lock. An I2C LCD displays system messages. This project enhances security with mobile-based authentication.
-
-
 # 🔐 Smart Lock with OTP Authentication (Arduino Based)
 
 This project is a smart locking system that uses **OTP (One-Time Password)** authentication via **SIM800A GSM module**, **4x4 Keypad**, **LCD Display**, and **Servo Motor**. It sends an OTP to a registered mobile number, and access is granted only if the correct OTP is entered through the keypad.
