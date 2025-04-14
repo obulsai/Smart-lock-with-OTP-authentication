@@ -193,4 +193,10 @@ void rotateServo() {
 - If the OTP is incorrect, “Access Denied” is displayed and the user is prompted again.
 - The system allows retrying with a new OTP if restarted.
 
+## 📺 Project Demo
+
+[![Smart Lock with OTP Authentication](https://img.youtube.com/vi/1ZWY_jiK90I/0.jpg)](https://youtu.be/1ZWY_jiK90I)
+
+Watch the working demonstration of the Smart Lock with OTP Authentication system in action. The video showcases OTP generation, SMS delivery, user input via keypad, and servo-based locking/unlocking.
+
 
